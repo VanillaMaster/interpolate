@@ -3,7 +3,7 @@
  * ```js
  * __interpolate(["Lorem ", " dolor"], ["ipsum"]) // equals to `Lorem ${"ipsum"} dolor`
  * ```
- * @param { TemplateStringsArray } template A well-formed template literal array object
+ * @param { TemplateStringsArray } template A well-formed template literal array object.
  * @param { any[] } substitutions A set of substitution values.
  * @returns { string }
  */
@@ -55,8 +55,8 @@ export function __interpolate(template, substitutions) {
  * ```js
  * const lorem = interpolate`Lorem ${"ipsum"} dolor`// returned value is equals to `Lorem ${"ipsum"} dolor`;
  * ```
- * @param { TemplateStringsArray } template 
- * @param { ...any } substitutions
+ * @param { TemplateStringsArray } template A well-formed template literal array object.
+ * @param { ...any } substitutions A set of substitution values.
  * @returns { string }
  */
 export function interpolate(template, ...substitutions) {
