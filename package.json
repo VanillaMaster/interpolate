@@ -1,0 +1,23 @@
+{
+  "name": "interpolate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/interpolate.js",
+      "types": "./types/interpolate.d.ts"
+    }
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "build:types": "tsc -p jsconfig.json"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
